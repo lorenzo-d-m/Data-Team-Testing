@@ -14,19 +14,21 @@ A testing repo for the data team of DeFiLib.
 | DB | PROS | CONS |
 | :------------ |:---------------:| -----:|
 | Cloud-based | scalable | money |
-| Local Stand-alone | free | installation |
+| Local Stand-alone | free | user installation |
 | Local embedded | free, easy | small/medium size projects |
 
 ### DB Cloud-based
-Oracle
+Oracle: \
+MongoDB instance on Atlas cloud: it needs an account or a certificate.
+
 ### DB Local Stand-alone
-MongoDB
+MongoDB: it needs a local installation.
 ### DB Local embedded
-Local DB with a maintened Python library:
-SQLite: well-known relational DB
-TinyDB: NOSQL document-oriented (JSON)
-ZODM: object-oriented, rigid data structure
+Local DB with a maintened Python library: \
+SQLite: well-known relational DB \
+TinyDB: NOSQL document-oriented (JSON) \
+ZODM: object-oriented, rigid data structure \
 
 # First attempt
-Data source API: CoinGecko
-DB: local embedded TinyDB
+Data source API: CoinGecko \
+DB: local embedded TinyDB \
