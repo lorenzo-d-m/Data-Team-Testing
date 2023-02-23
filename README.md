@@ -31,4 +31,4 @@ ZODM: object-oriented, rigid data structure \
 
 # First attempt
 Data source API: CoinGecko \
-DB: local embedded TinyDB \
+DB: [Atlas cloud based MongoDB](https://www.mongodb.com/atlas/database)\
